@@ -1,0 +1,93 @@
+{
+    "name": "Science",
+    "children": [
+        {
+            "name": "Formal sciences",
+            "children": [
+                {
+                    "name": "Logic"
+                },
+                {
+                    "name": "Data science"
+                },
+                {
+                    "name": "Information science"
+                },
+                {
+                    "name": "Mathematics"
+                },
+                {
+                    "name": "Statistics"
+                },
+                {
+                    "name": "Systems theory"
+                },
+                {
+                    "name": "Decision theory"
+                },
+                {
+                    "name": "Theoretical computer science"
+                }
+            ]
+        },
+        {
+            "name": "Natural sciences",
+            "children": [
+                {
+                    "name": "Physical science",
+                    "children": [
+                        {
+                            "name": "Physics"
+                        },
+                        {
+                            "name": "Chemistry"
+                        },
+                        {
+                            "name": "Earth science",
+                            "children": [
+                                {
+                                    "name": "Geology"
+                                },
+                                {
+                                    "name": "Oceanography"
+                                },
+                                {
+                                    "name": "Meteorology"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Astronomy"
+                        }
+                    ]
+                },
+                {
+                    "name": "Biology",
+                    "children": [
+                        {
+                            "name": "Biochemistry"
+                        },
+                        {
+                            "name": "Microbiology"
+                        },
+                        {
+                            "name": "Botany"
+                        },
+                        {
+                            "name": "Zoology"
+                        },
+                        {
+                            "name": "Ecology"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Social sciences"
+        },
+        {
+            "name": "Applied sciences"
+        }
+    ]
+}
