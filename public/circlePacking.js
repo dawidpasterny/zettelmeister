@@ -24,7 +24,6 @@ function renderChart(data){
             (hierarchy); 
     };
     const rootNode = pack(data);
-    let focusNode = rootNode;
 
     // Create the SVG container.
     const svg = d3.select("svg")
@@ -66,6 +65,7 @@ function renderChart(data){
 
     
     // Zoom innitially in to the rootNode (sets up the node positioning and size)
+    let focusNode = rootNode;
     let view;
     zoomTo([focusNode.x, focusNode.y, focusNode.r * 2]);
     
